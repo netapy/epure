@@ -8,3 +8,6 @@ reference/
 .vscode/
 .idea/
 *.swp
+
+# Chrome Web Store package output
+*.zip

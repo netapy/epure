@@ -1,8 +1,11 @@
-# Focused Gmail
+# Focused Mail
 
-A small **Manifest V3** Chrome extension that makes Gmail's inbox **list** calmer and
-more minimal — Notion-style label pills, time-section headers, and keyboard
+A small **Manifest V3** Chrome extension that makes the Gmail™ inbox **list** calmer
+and more minimal — Notion-style label pills, time-section headers, and keyboard
 "hover-to-act" shortcuts — plus a tiny settings page to configure it.
+
+It is inspired by the calm, text-first feel of Notion Mail, but stays a local
+Gmail overlay: no new mail client, no migration, no server.
 
 It only restyles and adds shortcuts to the **message list**. The sidebar, reading
 pane, search, and compose are left alone. No build step, no dependencies, no network
@@ -62,6 +65,7 @@ re-read them from disk.
 - Runs only on `https://mail.google.com/*`.
 - Makes **no network requests** and sends nothing anywhere. All settings stay in
   `chrome.storage.sync` on your own Google account.
+- See [PRIVACY.md](PRIVACY.md) for the Chrome Web Store privacy statement.
 
 ## How it works
 
@@ -82,3 +86,10 @@ Web Store listing.
 ## License
 
 [MIT](LICENSE) © 2026 Baudouin A.
+
+Gmail is a trademark of Google LLC. Use of this trademark is subject to Google
+Permissions. Focused Mail is not affiliated with, endorsed by, or sponsored by
+Google.
+
+Notion Mail is a product of Notion Labs, Inc. Focused Mail is not affiliated with,
+endorsed by, or sponsored by Notion.
